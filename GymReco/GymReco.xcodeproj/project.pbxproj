@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		C70915DF241510C200E25720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70915DE241510C200E25720 /* AppDelegate.swift */; };
-		C70915E1241510C200E25720 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70915E0241510C200E25720 /* SceneDelegate.swift */; };
-		C70915E3241510C200E25720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70915E2241510C200E25720 /* ViewController.swift */; };
 		C70915E6241510C200E25720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70915E4241510C200E25720 /* Main.storyboard */; };
 		C70915E8241510C400E25720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70915E7241510C400E25720 /* Assets.xcassets */; };
 		C70915EB241510C400E25720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70915E9241510C400E25720 /* LaunchScreen.storyboard */; };
 		C70915F6241510C400E25720 /* GymRecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70915F5241510C400E25720 /* GymRecoTests.swift */; };
 		C7091601241510C400E25720 /* GymRecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7091600241510C400E25720 /* GymRecoUITests.swift */; };
+		C7091610241519FB00E25720 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709160F241519FB00E25720 /* HomeViewController.swift */; };
+		C709161624151AA700E25720 /* RecordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161424151AA700E25720 /* RecordPageViewController.swift */; };
+		C709161724151AA700E25720 /* RecordPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C709161524151AA700E25720 /* RecordPageViewController.xib */; };
+		C709161924151ADA00E25720 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161824151ADA00E25720 /* RecordView.swift */; };
+		C709161C24151BAC00E25720 /* CelebratePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161B24151BAC00E25720 /* CelebratePageView.swift */; };
+		C709161F24151BC300E25720 /* CelebratePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161D24151BC300E25720 /* CelebratePageViewController.swift */; };
+		C709162024151BC300E25720 /* CelebratePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C709161E24151BC300E25720 /* CelebratePageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +42,6 @@
 /* Begin PBXFileReference section */
 		C70915DB241510C200E25720 /* GymReco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymReco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70915DE241510C200E25720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C70915E0241510C200E25720 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C70915E2241510C200E25720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C70915E5241510C200E25720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C70915E7241510C400E25720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C70915EA241510C400E25720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,13 @@
 		C70915FC241510C400E25720 /* GymRecoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymRecoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7091600241510C400E25720 /* GymRecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRecoUITests.swift; sourceTree = "<group>"; };
 		C7091602241510C400E25720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C709160F241519FB00E25720 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C709161424151AA700E25720 /* RecordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPageViewController.swift; sourceTree = "<group>"; };
+		C709161524151AA700E25720 /* RecordPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordPageViewController.xib; sourceTree = "<group>"; };
+		C709161824151ADA00E25720 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		C709161B24151BAC00E25720 /* CelebratePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebratePageView.swift; sourceTree = "<group>"; };
+		C709161D24151BC300E25720 /* CelebratePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebratePageViewController.swift; sourceTree = "<group>"; };
+		C709161E24151BC300E25720 /* CelebratePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelebratePageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,10 @@
 		C70915DD241510C200E25720 /* GymReco */ = {
 			isa = PBXGroup;
 			children = (
+				C709161A24151B8600E25720 /* CelebratePage */,
+				C709161124151A1700E25720 /* RecordPage */,
+				C709160E241519BC00E25720 /* Home */,
 				C70915DE241510C200E25720 /* AppDelegate.swift */,
-				C70915E0241510C200E25720 /* SceneDelegate.swift */,
-				C70915E2241510C200E25720 /* ViewController.swift */,
-				C70915E4241510C200E25720 /* Main.storyboard */,
 				C70915E7241510C400E25720 /* Assets.xcassets */,
 				C70915E9241510C400E25720 /* LaunchScreen.storyboard */,
 				C70915EC241510C400E25720 /* Info.plist */,
@@ -126,6 +136,35 @@
 				C7091602241510C400E25720 /* Info.plist */,
 			);
 			path = GymRecoUITests;
+			sourceTree = "<group>";
+		};
+		C709160E241519BC00E25720 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C70915E4241510C200E25720 /* Main.storyboard */,
+				C709160F241519FB00E25720 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C709161124151A1700E25720 /* RecordPage */ = {
+			isa = PBXGroup;
+			children = (
+				C709161424151AA700E25720 /* RecordPageViewController.swift */,
+				C709161524151AA700E25720 /* RecordPageViewController.xib */,
+				C709161824151ADA00E25720 /* RecordView.swift */,
+			);
+			path = RecordPage;
+			sourceTree = "<group>";
+		};
+		C709161A24151B8600E25720 /* CelebratePage */ = {
+			isa = PBXGroup;
+			children = (
+				C709161B24151BAC00E25720 /* CelebratePageView.swift */,
+				C709161D24151BC300E25720 /* CelebratePageViewController.swift */,
+				C709161E24151BC300E25720 /* CelebratePageViewController.xib */,
+			);
+			path = CelebratePage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +271,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C709162024151BC300E25720 /* CelebratePageViewController.xib in Resources */,
 				C70915EB241510C400E25720 /* LaunchScreen.storyboard in Resources */,
 				C70915E8241510C400E25720 /* Assets.xcassets in Resources */,
 				C70915E6241510C200E25720 /* Main.storyboard in Resources */,
+				C709161724151AA700E25720 /* RecordPageViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C70915E3241510C200E25720 /* ViewController.swift in Sources */,
+				C709161624151AA700E25720 /* RecordPageViewController.swift in Sources */,
+				C709161F24151BC300E25720 /* CelebratePageViewController.swift in Sources */,
+				C709161924151ADA00E25720 /* RecordView.swift in Sources */,
 				C70915DF241510C200E25720 /* AppDelegate.swift in Sources */,
-				C70915E1241510C200E25720 /* SceneDelegate.swift in Sources */,
+				C7091610241519FB00E25720 /* HomeViewController.swift in Sources */,
+				C709161C24151BAC00E25720 /* CelebratePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

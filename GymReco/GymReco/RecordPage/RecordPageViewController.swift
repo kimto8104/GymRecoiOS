@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RecordPageViewController.swift
 //  GymReco
 //
 //  Created by Tomofumi Kimura on 2020/03/08.
@@ -8,13 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RecordPageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
-
