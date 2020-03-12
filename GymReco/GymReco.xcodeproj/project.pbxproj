@@ -16,7 +16,6 @@
 		C7091610241519FB00E25720 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709160F241519FB00E25720 /* HomeViewController.swift */; };
 		C709161624151AA700E25720 /* RecordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161424151AA700E25720 /* RecordPageViewController.swift */; };
 		C709161724151AA700E25720 /* RecordPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C709161524151AA700E25720 /* RecordPageViewController.xib */; };
-		C709161924151ADA00E25720 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161824151ADA00E25720 /* RecordView.swift */; };
 		C709161C24151BAC00E25720 /* CelebratePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161B24151BAC00E25720 /* CelebratePageView.swift */; };
 		C709161F24151BC300E25720 /* CelebratePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161D24151BC300E25720 /* CelebratePageViewController.swift */; };
 		C709162024151BC300E25720 /* CelebratePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C709161E24151BC300E25720 /* CelebratePageViewController.xib */; };
@@ -55,7 +54,6 @@
 		C709160F241519FB00E25720 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C709161424151AA700E25720 /* RecordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPageViewController.swift; sourceTree = "<group>"; };
 		C709161524151AA700E25720 /* RecordPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordPageViewController.xib; sourceTree = "<group>"; };
-		C709161824151ADA00E25720 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		C709161B24151BAC00E25720 /* CelebratePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebratePageView.swift; sourceTree = "<group>"; };
 		C709161D24151BC300E25720 /* CelebratePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebratePageViewController.swift; sourceTree = "<group>"; };
 		C709161E24151BC300E25720 /* CelebratePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelebratePageViewController.xib; sourceTree = "<group>"; };
@@ -152,7 +150,6 @@
 			children = (
 				C709161424151AA700E25720 /* RecordPageViewController.swift */,
 				C709161524151AA700E25720 /* RecordPageViewController.xib */,
-				C709161824151ADA00E25720 /* RecordView.swift */,
 			);
 			path = RecordPage;
 			sourceTree = "<group>";
@@ -302,7 +299,6 @@
 			files = (
 				C709161624151AA700E25720 /* RecordPageViewController.swift in Sources */,
 				C709161F24151BC300E25720 /* CelebratePageViewController.swift in Sources */,
-				C709161924151ADA00E25720 /* RecordView.swift in Sources */,
 				C70915DF241510C200E25720 /* AppDelegate.swift in Sources */,
 				C7091610241519FB00E25720 /* HomeViewController.swift in Sources */,
 				C709161C24151BAC00E25720 /* CelebratePageView.swift in Sources */,
