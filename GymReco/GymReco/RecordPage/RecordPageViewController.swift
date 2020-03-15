@@ -22,6 +22,7 @@ class RecordPageViewController: UIViewController {
     func setUpRecordPage() {
         addRecordButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(tapAddRecordButton(_:)))
         self.navigationItem.rightBarButtonItem = addRecordButton
+         self.navigationItem.title = "記録"
     }
     
     @objc func tapAddRecordButton(_ sender: UIBarButtonItem) {

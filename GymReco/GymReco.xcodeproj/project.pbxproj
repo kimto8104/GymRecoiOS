@@ -139,6 +139,7 @@
 		C709160E241519BC00E25720 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				C7104E63241DFF9D00AA962D /* CollectionViewCell */,
 				C70915E4241510C200E25720 /* Main.storyboard */,
 				C709160F241519FB00E25720 /* HomeViewController.swift */,
 			);
@@ -162,6 +163,13 @@
 				C709161E24151BC300E25720 /* CelebratePageViewController.xib */,
 			);
 			path = CelebratePage;
+			sourceTree = "<group>";
+		};
+		C7104E63241DFF9D00AA962D /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
