@@ -19,6 +19,12 @@
 		C709161C24151BAC00E25720 /* CelebratePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161B24151BAC00E25720 /* CelebratePageView.swift */; };
 		C709161F24151BC300E25720 /* CelebratePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161D24151BC300E25720 /* CelebratePageViewController.swift */; };
 		C709162024151BC300E25720 /* CelebratePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C709161E24151BC300E25720 /* CelebratePageViewController.xib */; };
+		C786A1AB2425D49A00A46B2B /* EditRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786A1A92425D49A00A46B2B /* EditRecordTableViewCell.swift */; };
+		C786A1AC2425D49A00A46B2B /* EditRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C786A1AA2425D49A00A46B2B /* EditRecordTableViewCell.xib */; };
+		C7B2BE93241E58E3006E27F6 /* DayRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B2BE91241E58E3006E27F6 /* DayRecordTableViewCell.swift */; };
+		C7B2BE94241E58E3006E27F6 /* DayRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B2BE92241E58E3006E27F6 /* DayRecordTableViewCell.xib */; };
+		C7B2BE9B241E5D56006E27F6 /* EditRecordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B2BE9A241E5D56006E27F6 /* EditRecordPageViewController.swift */; };
+		C7B2BE9D241E5DC7006E27F6 /* EditRecordPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B2BE9C241E5DC7006E27F6 /* EditRecordPageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,12 @@
 		C709161B24151BAC00E25720 /* CelebratePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebratePageView.swift; sourceTree = "<group>"; };
 		C709161D24151BC300E25720 /* CelebratePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebratePageViewController.swift; sourceTree = "<group>"; };
 		C709161E24151BC300E25720 /* CelebratePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelebratePageViewController.xib; sourceTree = "<group>"; };
+		C786A1A92425D49A00A46B2B /* EditRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordTableViewCell.swift; sourceTree = "<group>"; };
+		C786A1AA2425D49A00A46B2B /* EditRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditRecordTableViewCell.xib; sourceTree = "<group>"; };
+		C7B2BE91241E58E3006E27F6 /* DayRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRecordTableViewCell.swift; sourceTree = "<group>"; };
+		C7B2BE92241E58E3006E27F6 /* DayRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayRecordTableViewCell.xib; sourceTree = "<group>"; };
+		C7B2BE9A241E5D56006E27F6 /* EditRecordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordPageViewController.swift; sourceTree = "<group>"; };
+		C7B2BE9C241E5DC7006E27F6 /* EditRecordPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditRecordPageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +119,7 @@
 		C70915DD241510C200E25720 /* GymReco */ = {
 			isa = PBXGroup;
 			children = (
+				C7B2BE95241E5CDE006E27F6 /* EditRecordPage */,
 				C709161A24151B8600E25720 /* CelebratePage */,
 				C709161124151A1700E25720 /* RecordPage */,
 				C709160E241519BC00E25720 /* Home */,
@@ -151,6 +164,8 @@
 			children = (
 				C709161424151AA700E25720 /* RecordPageViewController.swift */,
 				C709161524151AA700E25720 /* RecordPageViewController.xib */,
+				C7B2BE91241E58E3006E27F6 /* DayRecordTableViewCell.swift */,
+				C7B2BE92241E58E3006E27F6 /* DayRecordTableViewCell.xib */,
 			);
 			path = RecordPage;
 			sourceTree = "<group>";
@@ -170,6 +185,17 @@
 			children = (
 			);
 			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C7B2BE95241E5CDE006E27F6 /* EditRecordPage */ = {
+			isa = PBXGroup;
+			children = (
+				C7B2BE9A241E5D56006E27F6 /* EditRecordPageViewController.swift */,
+				C7B2BE9C241E5DC7006E27F6 /* EditRecordPageViewController.xib */,
+				C786A1A92425D49A00A46B2B /* EditRecordTableViewCell.swift */,
+				C786A1AA2425D49A00A46B2B /* EditRecordTableViewCell.xib */,
+			);
+			path = EditRecordPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +303,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C709162024151BC300E25720 /* CelebratePageViewController.xib in Resources */,
+				C7B2BE9D241E5DC7006E27F6 /* EditRecordPageViewController.xib in Resources */,
+				C7B2BE94241E58E3006E27F6 /* DayRecordTableViewCell.xib in Resources */,
 				C70915EB241510C400E25720 /* LaunchScreen.storyboard in Resources */,
+				C786A1AC2425D49A00A46B2B /* EditRecordTableViewCell.xib in Resources */,
 				C70915E8241510C400E25720 /* Assets.xcassets in Resources */,
 				C70915E6241510C200E25720 /* Main.storyboard in Resources */,
 				C709161724151AA700E25720 /* RecordPageViewController.xib in Resources */,
@@ -305,9 +334,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C786A1AB2425D49A00A46B2B /* EditRecordTableViewCell.swift in Sources */,
 				C709161624151AA700E25720 /* RecordPageViewController.swift in Sources */,
 				C709161F24151BC300E25720 /* CelebratePageViewController.swift in Sources */,
 				C70915DF241510C200E25720 /* AppDelegate.swift in Sources */,
+				C7B2BE93241E58E3006E27F6 /* DayRecordTableViewCell.swift in Sources */,
+				C7B2BE9B241E5D56006E27F6 /* EditRecordPageViewController.swift in Sources */,
 				C7091610241519FB00E25720 /* HomeViewController.swift in Sources */,
 				C709161C24151BAC00E25720 /* CelebratePageView.swift in Sources */,
 			);
