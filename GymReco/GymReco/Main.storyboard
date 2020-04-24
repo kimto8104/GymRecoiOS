@@ -1,55 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PBr-F6-5W8">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
-        <scene sceneID="ebV-HD-C5D">
-            <objects>
-                <viewController id="8aR-ql-LEJ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="n4R-cH-h8J">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="7cl-Qs-GEB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="PaS-GU-WQe"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jyi-dl-OMe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-957" y="974"/>
-        </scene>
         <!--Home-->
         <scene sceneID="PaW-IF-5kL">
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" id="vlt-gP-uyQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="ixK-wK-DYy"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="ixK-wK-DYy"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6N-pS-Tjq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2277" y="682"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="YdY-2Y-xVm">
             <objects>
-                <tabBarController id="PBr-F6-5W8" sceneMemberID="viewController">
+                <tabBarController id="PBr-F6-5W8" customClass="TabBarViewController" customModule="GymReco" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Obm-Yw-2yI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="8aR-ql-LEJ" kind="relationship" relationship="viewControllers" id="IeA-ux-8qc"/>
                         <segue destination="vlt-gP-uyQ" kind="relationship" relationship="viewControllers" id="l0m-TS-94b"/>
+                        <segue destination="f7D-ag-RvR" kind="relationship" relationship="viewControllers" id="4u5-p8-mZq"/>
+                        <segue destination="msC-up-uRl" kind="relationship" relationship="viewControllers" id="ThC-SD-TNo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oPU-PE-PzB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1639" y="186"/>
         </scene>
+        <!--Record-->
+        <scene sceneID="28c-a2-BGc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Record" id="f7D-ag-RvR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="記録" image="list.dash" catalog="system" selectedImage="house.fill" id="LBk-56-3i6"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cek-2d-bha" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1499" y="682"/>
+        </scene>
+        <!--Setting-->
+        <scene sceneID="eNN-Vt-DkH">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Setting" id="msC-up-uRl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="設定" image="wrench" catalog="system" id="8nB-aI-TRG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rrk-vI-Ddm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1018" y="638"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="house" catalog="system" width="64" height="54"/>
+        <image name="house.fill" catalog="system" width="64" height="52"/>
+        <image name="list.dash" catalog="system" width="64" height="42"/>
+        <image name="wrench" catalog="system" width="64" height="60"/>
+    </resources>
 </document>

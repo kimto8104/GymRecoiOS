@@ -178,7 +178,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="history" id="cUJ-O8-AVb"/>
+                    <tabBarItem key="tabBarItem" title="ホーム" image="house" catalog="system" id="cUJ-O8-AVb"/>
                     <navigationItem key="navigationItem" title="Home" id="PM0-KD-cEk"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
@@ -205,4 +205,7 @@
             <point key="canvasLocation" x="1481" y="218"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="house" catalog="system" width="64" height="54"/>
+    </resources>
 </document>

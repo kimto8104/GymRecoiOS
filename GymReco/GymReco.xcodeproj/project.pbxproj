@@ -15,6 +15,11 @@
 		C7091601241510C400E25720 /* GymRecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7091600241510C400E25720 /* GymRecoUITests.swift */; };
 		C7091610241519FB00E25720 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709160F241519FB00E25720 /* HomeViewController.swift */; };
 		C7205CE324533E7E003D8A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7205CE224533E7E003D8A54 /* Main.storyboard */; };
+		C7205CE7245341D2003D8A54 /* Record.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7205CE6245341D2003D8A54 /* Record.storyboard */; };
+		C7205CE924534276003D8A54 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205CE824534276003D8A54 /* RecordViewController.swift */; };
+		C7205CEB245342BE003D8A54 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7205CEA245342BE003D8A54 /* Setting.storyboard */; };
+		C7205CED24534665003D8A54 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205CEC24534665003D8A54 /* SettingViewController.swift */; };
+		C7205CF124534E05003D8A54 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205CF024534E05003D8A54 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		C7091602241510C400E25720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C709160F241519FB00E25720 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C7205CE224533E7E003D8A54 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C7205CE6245341D2003D8A54 /* Record.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Record.storyboard; sourceTree = "<group>"; };
+		C7205CE824534276003D8A54 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		C7205CEA245342BE003D8A54 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		C7205CEC24534665003D8A54 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		C7205CF024534E05003D8A54 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +109,15 @@
 		C70915DD241510C200E25720 /* GymReco */ = {
 			isa = PBXGroup;
 			children = (
+				C7205CE5245341AB003D8A54 /* Setting */,
+				C7205CE42453419E003D8A54 /* Record */,
 				C709160E241519BC00E25720 /* Home */,
 				C70915DE241510C200E25720 /* AppDelegate.swift */,
 				C70915E7241510C400E25720 /* Assets.xcassets */,
 				C70915E9241510C400E25720 /* LaunchScreen.storyboard */,
 				C70915EC241510C400E25720 /* Info.plist */,
 				C7205CE224533E7E003D8A54 /* Main.storyboard */,
+				C7205CF024534E05003D8A54 /* TabBarViewController.swift */,
 			);
 			path = GymReco;
 			sourceTree = "<group>";
@@ -142,6 +155,24 @@
 			children = (
 			);
 			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		C7205CE42453419E003D8A54 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				C7205CE6245341D2003D8A54 /* Record.storyboard */,
+				C7205CE824534276003D8A54 /* RecordViewController.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		C7205CE5245341AB003D8A54 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				C7205CEA245342BE003D8A54 /* Setting.storyboard */,
+				C7205CEC24534665003D8A54 /* SettingViewController.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +283,8 @@
 				C70915E8241510C400E25720 /* Assets.xcassets in Resources */,
 				C7205CE324533E7E003D8A54 /* Main.storyboard in Resources */,
 				C70915E6241510C200E25720 /* Home.storyboard in Resources */,
+				C7205CE7245341D2003D8A54 /* Record.storyboard in Resources */,
+				C7205CEB245342BE003D8A54 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7205CE924534276003D8A54 /* RecordViewController.swift in Sources */,
 				C70915DF241510C200E25720 /* AppDelegate.swift in Sources */,
 				C7091610241519FB00E25720 /* HomeViewController.swift in Sources */,
+				C7205CF124534E05003D8A54 /* TabBarViewController.swift in Sources */,
+				C7205CED24534665003D8A54 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
