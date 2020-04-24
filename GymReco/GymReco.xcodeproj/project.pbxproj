@@ -8,23 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C70915DF241510C200E25720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70915DE241510C200E25720 /* AppDelegate.swift */; };
-		C70915E6241510C200E25720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70915E4241510C200E25720 /* Main.storyboard */; };
+		C70915E6241510C200E25720 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70915E4241510C200E25720 /* Home.storyboard */; };
 		C70915E8241510C400E25720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C70915E7241510C400E25720 /* Assets.xcassets */; };
 		C70915EB241510C400E25720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C70915E9241510C400E25720 /* LaunchScreen.storyboard */; };
 		C70915F6241510C400E25720 /* GymRecoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C70915F5241510C400E25720 /* GymRecoTests.swift */; };
 		C7091601241510C400E25720 /* GymRecoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7091600241510C400E25720 /* GymRecoUITests.swift */; };
 		C7091610241519FB00E25720 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709160F241519FB00E25720 /* HomeViewController.swift */; };
-		C709161624151AA700E25720 /* RecordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161424151AA700E25720 /* RecordPageViewController.swift */; };
-		C709161724151AA700E25720 /* RecordPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C709161524151AA700E25720 /* RecordPageViewController.xib */; };
-		C709161C24151BAC00E25720 /* CelebratePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161B24151BAC00E25720 /* CelebratePageView.swift */; };
-		C709161F24151BC300E25720 /* CelebratePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C709161D24151BC300E25720 /* CelebratePageViewController.swift */; };
-		C709162024151BC300E25720 /* CelebratePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C709161E24151BC300E25720 /* CelebratePageViewController.xib */; };
-		C786A1AB2425D49A00A46B2B /* EditRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C786A1A92425D49A00A46B2B /* EditRecordTableViewCell.swift */; };
-		C786A1AC2425D49A00A46B2B /* EditRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C786A1AA2425D49A00A46B2B /* EditRecordTableViewCell.xib */; };
-		C7B2BE93241E58E3006E27F6 /* DayRecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B2BE91241E58E3006E27F6 /* DayRecordTableViewCell.swift */; };
-		C7B2BE94241E58E3006E27F6 /* DayRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B2BE92241E58E3006E27F6 /* DayRecordTableViewCell.xib */; };
-		C7B2BE9B241E5D56006E27F6 /* EditRecordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B2BE9A241E5D56006E27F6 /* EditRecordPageViewController.swift */; };
-		C7B2BE9D241E5DC7006E27F6 /* EditRecordPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7B2BE9C241E5DC7006E27F6 /* EditRecordPageViewController.xib */; };
+		C7205CE324533E7E003D8A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7205CE224533E7E003D8A54 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +37,7 @@
 /* Begin PBXFileReference section */
 		C70915DB241510C200E25720 /* GymReco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymReco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C70915DE241510C200E25720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C70915E5241510C200E25720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C70915E5241510C200E25720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		C70915E7241510C400E25720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C70915EA241510C400E25720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C70915EC241510C400E25720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,17 +48,7 @@
 		C7091600241510C400E25720 /* GymRecoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRecoUITests.swift; sourceTree = "<group>"; };
 		C7091602241510C400E25720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C709160F241519FB00E25720 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		C709161424151AA700E25720 /* RecordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPageViewController.swift; sourceTree = "<group>"; };
-		C709161524151AA700E25720 /* RecordPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordPageViewController.xib; sourceTree = "<group>"; };
-		C709161B24151BAC00E25720 /* CelebratePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebratePageView.swift; sourceTree = "<group>"; };
-		C709161D24151BC300E25720 /* CelebratePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebratePageViewController.swift; sourceTree = "<group>"; };
-		C709161E24151BC300E25720 /* CelebratePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelebratePageViewController.xib; sourceTree = "<group>"; };
-		C786A1A92425D49A00A46B2B /* EditRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordTableViewCell.swift; sourceTree = "<group>"; };
-		C786A1AA2425D49A00A46B2B /* EditRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditRecordTableViewCell.xib; sourceTree = "<group>"; };
-		C7B2BE91241E58E3006E27F6 /* DayRecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayRecordTableViewCell.swift; sourceTree = "<group>"; };
-		C7B2BE92241E58E3006E27F6 /* DayRecordTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DayRecordTableViewCell.xib; sourceTree = "<group>"; };
-		C7B2BE9A241E5D56006E27F6 /* EditRecordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRecordPageViewController.swift; sourceTree = "<group>"; };
-		C7B2BE9C241E5DC7006E27F6 /* EditRecordPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditRecordPageViewController.xib; sourceTree = "<group>"; };
+		C7205CE224533E7E003D8A54 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,14 +99,12 @@
 		C70915DD241510C200E25720 /* GymReco */ = {
 			isa = PBXGroup;
 			children = (
-				C7B2BE95241E5CDE006E27F6 /* EditRecordPage */,
-				C709161A24151B8600E25720 /* CelebratePage */,
-				C709161124151A1700E25720 /* RecordPage */,
 				C709160E241519BC00E25720 /* Home */,
 				C70915DE241510C200E25720 /* AppDelegate.swift */,
 				C70915E7241510C400E25720 /* Assets.xcassets */,
 				C70915E9241510C400E25720 /* LaunchScreen.storyboard */,
 				C70915EC241510C400E25720 /* Info.plist */,
+				C7205CE224533E7E003D8A54 /* Main.storyboard */,
 			);
 			path = GymReco;
 			sourceTree = "<group>";
@@ -153,31 +131,10 @@
 			isa = PBXGroup;
 			children = (
 				C7104E63241DFF9D00AA962D /* CollectionViewCell */,
-				C70915E4241510C200E25720 /* Main.storyboard */,
+				C70915E4241510C200E25720 /* Home.storyboard */,
 				C709160F241519FB00E25720 /* HomeViewController.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		C709161124151A1700E25720 /* RecordPage */ = {
-			isa = PBXGroup;
-			children = (
-				C709161424151AA700E25720 /* RecordPageViewController.swift */,
-				C709161524151AA700E25720 /* RecordPageViewController.xib */,
-				C7B2BE91241E58E3006E27F6 /* DayRecordTableViewCell.swift */,
-				C7B2BE92241E58E3006E27F6 /* DayRecordTableViewCell.xib */,
-			);
-			path = RecordPage;
-			sourceTree = "<group>";
-		};
-		C709161A24151B8600E25720 /* CelebratePage */ = {
-			isa = PBXGroup;
-			children = (
-				C709161B24151BAC00E25720 /* CelebratePageView.swift */,
-				C709161D24151BC300E25720 /* CelebratePageViewController.swift */,
-				C709161E24151BC300E25720 /* CelebratePageViewController.xib */,
-			);
-			path = CelebratePage;
 			sourceTree = "<group>";
 		};
 		C7104E63241DFF9D00AA962D /* CollectionViewCell */ = {
@@ -185,17 +142,6 @@
 			children = (
 			);
 			path = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		C7B2BE95241E5CDE006E27F6 /* EditRecordPage */ = {
-			isa = PBXGroup;
-			children = (
-				C7B2BE9A241E5D56006E27F6 /* EditRecordPageViewController.swift */,
-				C7B2BE9C241E5DC7006E27F6 /* EditRecordPageViewController.xib */,
-				C786A1A92425D49A00A46B2B /* EditRecordTableViewCell.swift */,
-				C786A1AA2425D49A00A46B2B /* EditRecordTableViewCell.xib */,
-			);
-			path = EditRecordPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,14 +248,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C709162024151BC300E25720 /* CelebratePageViewController.xib in Resources */,
-				C7B2BE9D241E5DC7006E27F6 /* EditRecordPageViewController.xib in Resources */,
-				C7B2BE94241E58E3006E27F6 /* DayRecordTableViewCell.xib in Resources */,
 				C70915EB241510C400E25720 /* LaunchScreen.storyboard in Resources */,
-				C786A1AC2425D49A00A46B2B /* EditRecordTableViewCell.xib in Resources */,
 				C70915E8241510C400E25720 /* Assets.xcassets in Resources */,
-				C70915E6241510C200E25720 /* Main.storyboard in Resources */,
-				C709161724151AA700E25720 /* RecordPageViewController.xib in Resources */,
+				C7205CE324533E7E003D8A54 /* Main.storyboard in Resources */,
+				C70915E6241510C200E25720 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,14 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C786A1AB2425D49A00A46B2B /* EditRecordTableViewCell.swift in Sources */,
-				C709161624151AA700E25720 /* RecordPageViewController.swift in Sources */,
-				C709161F24151BC300E25720 /* CelebratePageViewController.swift in Sources */,
 				C70915DF241510C200E25720 /* AppDelegate.swift in Sources */,
-				C7B2BE93241E58E3006E27F6 /* DayRecordTableViewCell.swift in Sources */,
-				C7B2BE9B241E5D56006E27F6 /* EditRecordPageViewController.swift in Sources */,
 				C7091610241519FB00E25720 /* HomeViewController.swift in Sources */,
-				C709161C24151BAC00E25720 /* CelebratePageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,12 +313,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C70915E4241510C200E25720 /* Main.storyboard */ = {
+		C70915E4241510C200E25720 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C70915E5241510C200E25720 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		C70915E9241510C400E25720 /* LaunchScreen.storyboard */ = {
@@ -514,17 +450,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Y88N7C5HY9;
 				INFOPLIST_FILE = GymReco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tomo.GymReco;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomofumi.gymreco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = gymreco;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -532,17 +470,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = Y88N7C5HY9;
 				INFOPLIST_FILE = GymReco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = tomo.GymReco;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomofumi.gymreco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = gymreco;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
