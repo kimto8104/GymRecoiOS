@@ -20,6 +20,8 @@
 		C7205CEB245342BE003D8A54 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7205CEA245342BE003D8A54 /* Setting.storyboard */; };
 		C7205CED24534665003D8A54 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205CEC24534665003D8A54 /* SettingViewController.swift */; };
 		C7205CF124534E05003D8A54 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205CF024534E05003D8A54 /* TabBarViewController.swift */; };
+		C7205CFA2456AC9B003D8A54 /* CelebrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205CF82456AC9B003D8A54 /* CelebrateViewController.swift */; };
+		C7205CFB2456AC9B003D8A54 /* CelebrateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7205CF92456AC9B003D8A54 /* CelebrateViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		C7205CEA245342BE003D8A54 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		C7205CEC24534665003D8A54 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		C7205CF024534E05003D8A54 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C7205CF82456AC9B003D8A54 /* CelebrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrateViewController.swift; sourceTree = "<group>"; };
+		C7205CF92456AC9B003D8A54 /* CelebrateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelebrateViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,18 +147,12 @@
 		C709160E241519BC00E25720 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				C7104E63241DFF9D00AA962D /* CollectionViewCell */,
 				C70915E4241510C200E25720 /* Home.storyboard */,
 				C709160F241519FB00E25720 /* HomeViewController.swift */,
+				C7205CF82456AC9B003D8A54 /* CelebrateViewController.swift */,
+				C7205CF92456AC9B003D8A54 /* CelebrateViewController.xib */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		C7104E63241DFF9D00AA962D /* CollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = CollectionViewCell;
 			sourceTree = "<group>";
 		};
 		C7205CE42453419E003D8A54 /* Record */ = {
@@ -283,6 +281,7 @@
 				C70915E8241510C400E25720 /* Assets.xcassets in Resources */,
 				C7205CE324533E7E003D8A54 /* Main.storyboard in Resources */,
 				C70915E6241510C200E25720 /* Home.storyboard in Resources */,
+				C7205CFB2456AC9B003D8A54 /* CelebrateViewController.xib in Resources */,
 				C7205CE7245341D2003D8A54 /* Record.storyboard in Resources */,
 				C7205CEB245342BE003D8A54 /* Setting.storyboard in Resources */,
 			);
@@ -309,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7205CFA2456AC9B003D8A54 /* CelebrateViewController.swift in Sources */,
 				C7205CE924534276003D8A54 /* RecordViewController.swift in Sources */,
 				C70915DF241510C200E25720 /* AppDelegate.swift in Sources */,
 				C7091610241519FB00E25720 /* HomeViewController.swift in Sources */,

@@ -7,11 +7,19 @@
 //
 
 import UIKit
-
+// ホーム画面
 class HomeViewController: UIViewController {
+    // IBOutlets
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    
+    @IBAction func tapWentGymButton(_ sender: Any) {
+        // おめでとうページモーダルで表示
+        let celebrateVC = CelebrateViewController()
+        self.present(celebrateVC, animated: true, completion: nil)
     }
     
 }
