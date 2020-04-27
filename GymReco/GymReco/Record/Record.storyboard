@@ -32,6 +32,9 @@
                     <tabBarItem key="tabBarItem" title="記録" image="list.dash" catalog="system" id="3v3-VZ-Mxu"/>
                     <navigationItem key="navigationItem" title="記録" id="qH6-dT-26Y"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="ef6-8h-dWr" id="86N-Kv-H6Z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="im8-if-H7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

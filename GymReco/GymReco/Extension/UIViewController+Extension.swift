@@ -11,9 +11,14 @@ import UIKit
 import SideMenu
 extension UIViewController {
     
+    
     func setupNavigationBar() {
         let leftSettingButton = UIBarButtonItem(image: UIImage(named: "Menu")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal), style: .done, target: self, action: #selector(tapMenuButton(_:)))
         self.navigationItem.leftBarButtonItem = leftSettingButton
+    }
+    
+    func setupNaviTitle(title: String) {
+        self.navigationItem.title = title
     }
     // サイドメニュータップ
     @objc func tapMenuButton(_ sender: AnyObject) {
