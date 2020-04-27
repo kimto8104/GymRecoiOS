@@ -7,16 +7,13 @@
 //
 
 import UIKit
-
+// 記録画面
 class RecordViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
     }
-    
-
     /*
     // MARK: - Navigation
 

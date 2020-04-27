@@ -14,7 +14,19 @@
                     <view key="view" contentMode="scaleToFill" id="1hn-PT-yQg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ef6-8h-dWr">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.93333333330000001" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="ef6-8h-dWr" firstAttribute="leading" secondItem="MWW-vS-KI1" secondAttribute="leading" id="0ya-KJ-nkH"/>
+                            <constraint firstItem="ef6-8h-dWr" firstAttribute="top" secondItem="MWW-vS-KI1" secondAttribute="top" id="4uH-wC-7iT"/>
+                            <constraint firstItem="MWW-vS-KI1" firstAttribute="trailing" secondItem="ef6-8h-dWr" secondAttribute="trailing" id="GqK-xF-YzF"/>
+                            <constraint firstItem="MWW-vS-KI1" firstAttribute="bottom" secondItem="ef6-8h-dWr" secondAttribute="bottom" id="v2d-Pl-9BL"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="MWW-vS-KI1"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="記録" image="list.dash" catalog="system" id="3v3-VZ-Mxu"/>

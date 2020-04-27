@@ -25,6 +25,7 @@
 		C7205CFA2456AC9B003D8A54 /* CelebrateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205CF82456AC9B003D8A54 /* CelebrateViewController.swift */; };
 		C7205CFB2456AC9B003D8A54 /* CelebrateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7205CF92456AC9B003D8A54 /* CelebrateViewController.xib */; };
 		C7205CFE245722C2003D8A54 /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7205CFD245722C2003D8A54 /* SideMenu.storyboard */; };
+		C7205D01245728FC003D8A54 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205D00245728FC003D8A54 /* UIViewController+Extension.swift */; };
 		FA9E5D391D52E77E12FA1926 /* Pods_GymReco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B63D0F85375738E30C9F69 /* Pods_GymReco.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		C7205CF82456AC9B003D8A54 /* CelebrateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrateViewController.swift; sourceTree = "<group>"; };
 		C7205CF92456AC9B003D8A54 /* CelebrateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CelebrateViewController.xib; sourceTree = "<group>"; };
 		C7205CFD245722C2003D8A54 /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		C7205D00245728FC003D8A54 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		C70915DD241510C200E25720 /* GymReco */ = {
 			isa = PBXGroup;
 			children = (
+				C7205CFF245728E5003D8A54 /* Extension */,
 				C7205CFC2456B961003D8A54 /* SideMenu */,
 				C7205CE5245341AB003D8A54 /* Setting */,
 				C7205CE42453419E003D8A54 /* Record */,
@@ -222,6 +225,14 @@
 				C7205CFD245722C2003D8A54 /* SideMenu.storyboard */,
 			);
 			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		C7205CFF245728E5003D8A54 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C7205D00245728FC003D8A54 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -472,6 +483,7 @@
 				C7205CE924534276003D8A54 /* RecordViewController.swift in Sources */,
 				C70915DF241510C200E25720 /* AppDelegate.swift in Sources */,
 				C7091610241519FB00E25720 /* HomeViewController.swift in Sources */,
+				C7205D01245728FC003D8A54 /* UIViewController+Extension.swift in Sources */,
 				C7205CF124534E05003D8A54 /* TabBarViewController.swift in Sources */,
 				C7205CED24534665003D8A54 /* SettingViewController.swift in Sources */,
 			);
