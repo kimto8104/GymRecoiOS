@@ -30,6 +30,7 @@
 		C7205D0524574876003D8A54 /* RecordingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7205D0324574876003D8A54 /* RecordingTableViewCell.xib */; };
 		C7205D082457589A003D8A54 /* EditPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7205D072457589A003D8A54 /* EditPageViewController.storyboard */; };
 		C7205D0A24575945003D8A54 /* EditPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205D0924575945003D8A54 /* EditPageViewController.swift */; };
+		C793A78E245A793400250159 /* AddButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C793A78D245A793400250159 /* AddButtonView.xib */; };
 		FA9E5D391D52E77E12FA1926 /* Pods_GymReco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B63D0F85375738E30C9F69 /* Pods_GymReco.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		C7205D0324574876003D8A54 /* RecordingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecordingTableViewCell.xib; sourceTree = "<group>"; };
 		C7205D072457589A003D8A54 /* EditPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditPageViewController.storyboard; sourceTree = "<group>"; };
 		C7205D0924575945003D8A54 /* EditPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPageViewController.swift; sourceTree = "<group>"; };
+		C793A78D245A793400250159 /* AddButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddButtonView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 				C7205CE824534276003D8A54 /* RecordViewController.swift */,
 				C7205D0224574876003D8A54 /* RecordingTableViewCell.swift */,
 				C7205D0324574876003D8A54 /* RecordingTableViewCell.xib */,
+				C793A78D245A793400250159 /* AddButtonView.xib */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7205D082457589A003D8A54 /* EditPageViewController.storyboard in Resources */,
+				C793A78E245A793400250159 /* AddButtonView.xib in Resources */,
 				C70915EB241510C400E25720 /* LaunchScreen.storyboard in Resources */,
 				C70915E8241510C400E25720 /* Assets.xcassets in Resources */,
 				C7205CE324533E7E003D8A54 /* Main.storyboard in Resources */,
