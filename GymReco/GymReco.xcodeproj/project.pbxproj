@@ -31,6 +31,8 @@
 		C7205D082457589A003D8A54 /* EditPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7205D072457589A003D8A54 /* EditPageViewController.storyboard */; };
 		C7205D0A24575945003D8A54 /* EditPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7205D0924575945003D8A54 /* EditPageViewController.swift */; };
 		C793A78E245A793400250159 /* AddButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C793A78D245A793400250159 /* AddButtonView.xib */; };
+		C7E8A95D247032B400FAD534 /* AddRecordPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E8A95C247032B400FAD534 /* AddRecordPage.storyboard */; };
+		C7E8A95F247032C600FAD534 /* AddRecordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8A95E247032C600FAD534 /* AddRecordPageViewController.swift */; };
 		FA9E5D391D52E77E12FA1926 /* Pods_GymReco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B63D0F85375738E30C9F69 /* Pods_GymReco.framework */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +91,8 @@
 		C7205D072457589A003D8A54 /* EditPageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditPageViewController.storyboard; sourceTree = "<group>"; };
 		C7205D0924575945003D8A54 /* EditPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPageViewController.swift; sourceTree = "<group>"; };
 		C793A78D245A793400250159 /* AddButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddButtonView.xib; sourceTree = "<group>"; };
+		C7E8A95C247032B400FAD534 /* AddRecordPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddRecordPage.storyboard; sourceTree = "<group>"; };
+		C7E8A95E247032C600FAD534 /* AddRecordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,7 @@
 		C7205CE42453419E003D8A54 /* Record */ = {
 			isa = PBXGroup;
 			children = (
+				C7E8A95B2470327F00FAD534 /* AddRecordPage */,
 				C7205D06245756E7003D8A54 /* EditRecord */,
 				C7205CE6245341D2003D8A54 /* Record.storyboard */,
 				C7205CE824534276003D8A54 /* RecordViewController.swift */,
@@ -256,6 +261,15 @@
 				C7205D0924575945003D8A54 /* EditPageViewController.swift */,
 			);
 			path = EditRecord;
+			sourceTree = "<group>";
+		};
+		C7E8A95B2470327F00FAD534 /* AddRecordPage */ = {
+			isa = PBXGroup;
+			children = (
+				C7E8A95C247032B400FAD534 /* AddRecordPage.storyboard */,
+				C7E8A95E247032C600FAD534 /* AddRecordPageViewController.swift */,
+			);
+			path = AddRecordPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +381,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E8A95D247032B400FAD534 /* AddRecordPage.storyboard in Resources */,
 				C7205D082457589A003D8A54 /* EditPageViewController.storyboard in Resources */,
 				C793A78E245A793400250159 /* AddButtonView.xib in Resources */,
 				C70915EB241510C400E25720 /* LaunchScreen.storyboard in Resources */,
@@ -513,6 +528,7 @@
 				C7205CF124534E05003D8A54 /* TabBarViewController.swift in Sources */,
 				C7205D0A24575945003D8A54 /* EditPageViewController.swift in Sources */,
 				C7205CED24534665003D8A54 /* SettingViewController.swift in Sources */,
+				C7E8A95F247032C600FAD534 /* AddRecordPageViewController.swift in Sources */,
 				C7205D0424574876003D8A54 /* RecordingTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -672,7 +688,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -687,8 +703,8 @@
 			baseConfigurationReference = 218E20CB1303F3B6C7905289 /* Pods-GymReco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y88N7C5HY9;
 				INFOPLIST_FILE = GymReco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -697,7 +713,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomofumi.gymreco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = gymreco;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -708,8 +724,8 @@
 			baseConfigurationReference = 1780EBB378FED12C9B39E8C1 /* Pods-GymReco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y88N7C5HY9;
 				INFOPLIST_FILE = GymReco/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -718,7 +734,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomofumi.gymreco;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = gymreco;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

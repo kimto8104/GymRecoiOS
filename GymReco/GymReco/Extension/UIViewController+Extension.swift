@@ -23,7 +23,7 @@ extension UIViewController {
     // サイドメニュータップ
     @objc func tapMenuButton(_ sender: AnyObject) {
         let sideMenuStoryboard = UIStoryboard(name: "SideMenu", bundle: nil)
-        let sideMenu = sideMenuStoryboard.instantiateViewController(identifier: "SideMenu") as! SideMenuNavigationController
+        let sideMenu = sideMenuStoryboard.instantiateViewController(withIdentifier: "SideMenu") as! SideMenuNavigationController
         // サイドメニュー表示
         self.present(sideMenu, animated: true, completion: nil)
         

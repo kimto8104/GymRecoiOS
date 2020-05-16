@@ -51,9 +51,12 @@ extension RecordViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         let editStoryboard = UIStoryboard(name: "EditPageViewController", bundle: nil)
-        if  let editPageVC = editStoryboard.instantiateViewController(identifier: "EditPageViewController") as? EditPageViewController {
+        if let editPageVC = editStoryboard.instantiateViewController(withIdentifier: "EditPageViewController") as? EditPageViewController {
             self.navigationController?.pushViewController(editPageVC, animated: true)
         }
+//        if  let editPageVC = editStoryboard.instantiateViewController(identifier: "EditPageViewController") as? EditPageViewController {
+//            self.navigationController?.pushViewController(editPageVC, animated: true)
+//        }
         
     }
     
