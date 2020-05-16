@@ -33,6 +33,7 @@
 		C793A78E245A793400250159 /* AddButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C793A78D245A793400250159 /* AddButtonView.xib */; };
 		C7E8A95D247032B400FAD534 /* AddRecordPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E8A95C247032B400FAD534 /* AddRecordPage.storyboard */; };
 		C7E8A95F247032C600FAD534 /* AddRecordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8A95E247032C600FAD534 /* AddRecordPageViewController.swift */; };
+		C7E8A9612470387300FAD534 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E8A9602470387300FAD534 /* AddButtonView.swift */; };
 		FA9E5D391D52E77E12FA1926 /* Pods_GymReco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B63D0F85375738E30C9F69 /* Pods_GymReco.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,7 @@
 		C793A78D245A793400250159 /* AddButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddButtonView.xib; sourceTree = "<group>"; };
 		C7E8A95C247032B400FAD534 /* AddRecordPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddRecordPage.storyboard; sourceTree = "<group>"; };
 		C7E8A95E247032C600FAD534 /* AddRecordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordPageViewController.swift; sourceTree = "<group>"; };
+		C7E8A9602470387300FAD534 /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 				C7205D0224574876003D8A54 /* RecordingTableViewCell.swift */,
 				C7205D0324574876003D8A54 /* RecordingTableViewCell.xib */,
 				C793A78D245A793400250159 /* AddButtonView.xib */,
+				C7E8A9602470387300FAD534 /* AddButtonView.swift */,
 			);
 			path = Record;
 			sourceTree = "<group>";
@@ -528,6 +531,7 @@
 				C7205CF124534E05003D8A54 /* TabBarViewController.swift in Sources */,
 				C7205D0A24575945003D8A54 /* EditPageViewController.swift in Sources */,
 				C7205CED24534665003D8A54 /* SettingViewController.swift in Sources */,
+				C7E8A9612470387300FAD534 /* AddButtonView.swift in Sources */,
 				C7E8A95F247032C600FAD534 /* AddRecordPageViewController.swift in Sources */,
 				C7205D0424574876003D8A54 /* RecordingTableViewCell.swift in Sources */,
 			);
