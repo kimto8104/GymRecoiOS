@@ -15,8 +15,6 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        // Do any additional setup after loading the view.
     }
     
     override func viewDidLayoutSubviews() {
@@ -24,11 +22,17 @@ class TabBarViewController: UITabBarController {
         setupAddButton()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+    }
+    
 
     func setupAddButton() {
         if addButtonView == nil {
             let rect = getAddButtonSize()
             addButtonView = AddButtonView(frame: rect)
+            addButtonView?.delegate = self
             addButtonView?.layer.masksToBounds = true
             addButtonView?.layer.cornerRadius = 25
             view.addSubview(addButtonView!)
@@ -62,4 +66,19 @@ class TabBarViewController: UITabBarController {
         return addButtonRect
     }
 
+}
+
+extension TabBarViewController: AddButtonViewDelegate{
+    func didTapAddButton() {
+        print("test")
+    }
+    
+    // 記録ページで＋ボタンが押された時の処理
+//    func didTapAddButton() {
+//        let recordPageStoryboard: UIStoryboard = UIStoryboard(name: "AddRecordPage", bundle: nil)
+//        let addRecordVC = recordPageStoryboard.instantiateViewController(withIdentifier: "AddRecordPage") as! AddRecordPageViewController
+//        self.navigationController?.pushViewController(addRecordVC, animated: true)
+//    }
+    
+    
 }
