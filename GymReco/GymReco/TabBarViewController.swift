@@ -19,7 +19,7 @@ class TabBarViewController: UITabBarController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        setupAddButton()
+//        setupAddButton()
     }
     
     override func viewWillAppear(_ animated: Bool) {

@@ -9,7 +9,7 @@
 import UIKit
 // 記録画面
 class RecordViewController: UIViewController {
-
+    var addButtonItem: UIBarButtonItem!
     @IBOutlet weak var tableView: UITableView!
     private var months: [String] = ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"]
     override func viewDidLoad() {
@@ -17,11 +17,25 @@ class RecordViewController: UIViewController {
         tableView.dataSource = self
         tableView.delegate = self
         tableView.register(UINib(nibName: "RecordingTableViewCell", bundle: nil), forCellReuseIdentifier: "RecordingTableViewCell")
+        setupNaviBar()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.tabBarController?.tabBar.isHidden = false
+    }
+    
+    func setupNaviBar() {
+        addButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(moveToAddRecordPage(_:)))
+        self.navigationItem.rightBarButtonItem = addButtonItem
+    }
+    
+    @objc func moveToAddRecordPage(_ sender: UIBarButtonItem) {
+        // Stroyboard
+        let addRecordStBoard = UIStoryboard(name: "AddRecordPage", bundle: nil)
+        if let addRecordVC = addRecordStBoard.instantiateViewController(withIdentifier: "AddRecordPageViewController") as? AddRecordPageViewController {
+            self.navigationController?.pushViewController(addRecordVC, animated: true)
+        }
     }
 }
 
